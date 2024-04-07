@@ -7,7 +7,6 @@ This project aims to create a dynamic and interactive frontend application using
 - **Pokemon List**: Display a list of Pokemon fetched from the PokemonAPI, including their names, images, and basic information.
 - **Search and Filter**: Implement search and filter functionalities to allow users to easily find specific Pokemon based on their attributes such as type, abilities, or characteristics.
 - **Detailed Pokemon View**: Enable users to view detailed information about each Pokemon, including their stats, abilities, evolution chain, and more.
-- **Favorites and Bookmarks**: Implement features for users to mark their favorite Pokemon and save them for quick access later.
 - **Responsive Design**: Ensure the application is responsive and accessible across various devices, providing a seamless experience for users on both desktop and mobile platforms.
 - **Pagination**: Implement pagination for the Pokemon list to manage and display large datasets efficiently.
 - **Error Handling**: Handle API errors and edge cases gracefully, providing informative messages to users when necessary.
@@ -19,15 +18,6 @@ This project aims to create a dynamic and interactive frontend application using
 - **Axios**: HTTP client for making API requests from the frontend.
 - **Bootstrap or Material-UI**: UI frameworks for enhancing the visual appeal and responsiveness of the application.
 - **LocalStorage or Redux**: For managing state, including favorites, bookmarks, and other user-related data.
-
-## Project Structure
-- **src/**
-  - **components/**: Contains reusable React components such as PokemonCard, SearchBar, Pagination, etc.
-  - **pages/**: Individual pages of the application, such as Home, PokemonDetails, Favorites, etc.
-  - **services/**: API service functions for fetching data from the PokemonAPI.
-  - **utils/**: Utility functions and helpers for common tasks.
-  - **App.js**: Main component orchestrating the application's routing and layout.
-  - **index.js**: Entry point of the React application.
 
 ## Development Process
 - **Planning and Design**: Define the application's layout, components, and features through wireframes or mockups.
@@ -46,9 +36,6 @@ This project aims to create a dynamic and interactive frontend application using
 - **Localization**: Add support for multiple languages to make the application accessible to a global audience.
 - **Integration with Additional APIs**: Explore integrating other APIs related to Pokemon, such as moveset data, breeding information, or competitive stats.
 - **Performance Optimization**: Optimize the application's performance by reducing load times, optimizing API calls, and implementing lazy loading for images or components.
-
-## Team Collaboration
-This project can be collaborated on by a team of frontend developers, UI/UX designers, and API integration specialists. Utilize version control systems like Git and platforms such as GitHub or GitLab for seamless collaboration, code review, and project management.
 
 ## License
 This project is open-source and can be distributed and modified under the terms of the MIT License.
